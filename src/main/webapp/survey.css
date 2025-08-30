@@ -1,0 +1,167 @@
+/* ========== Chung ========== */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    background-color: #e6f0ff;   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px 0;
+}
+
+/* Logo */
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 120px;
+}
+
+/* ========== Form CSS ========== */
+form {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    width: 600px;
+}
+
+h1 {     
+    font-size: 220%;
+    color: #0066cc;
+    margin-bottom: .5em;    
+    text-align: center;
+}
+
+h2 {     
+    font-size: 120%;
+    color: #0066cc;
+    margin: 20px 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="date"], 
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #0066cc, #4b236d);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+/* ========== Thanks Page CSS ========== */
+.thanks-box {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    max-width: 600px;
+    text-align: center;
+}
+
+.thanks-box h1 { 
+    color: #0066cc; 
+    margin-bottom: 8px; 
+    font-size: 28px;
+}
+
+.thanks-box h2 { 
+    color: #4b236d; 
+    margin: 15px 0 10px; 
+    font-size: 20px;
+    text-align: left;
+}
+
+.thanks-box p { 
+    color: #444; 
+    margin: 6px 0; 
+    font-size: 15px;
+    text-align: left;
+}
+
+/* label và dữ liệu cùng dòng */
+.thanks-box p label { 
+    display: inline-block; 
+    font-weight: bold; 
+    color: #333; 
+    margin-right: 5px;
+}
+
+.thanks-box .yes { 
+    color: green; 
+    font-weight: bold; 
+}
+
+.thanks-box .no { 
+    color: red; 
+    font-weight: bold; 
+}
+
+.thanks-box .final { 
+    margin-top: 20px; 
+    font-size: 18px; 
+    color: #2a6f37; 
+    font-weight: bold; 
+    text-align: left;
+}
+
+/* Return button */
+.thanks-box .return-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;                  /* full chiều ngang box */
+    height: 48px;
+    background: linear-gradient(90deg, #0066cc, #4b236d);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    text-decoration: none;        /* bỏ gạch chân */
+}
+
+.thanks-box .return-btn:hover {
+    opacity: 0.9;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
