@@ -1,14 +1,14 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Thank You!</title>
     <link rel="stylesheet" href="survey.css">
 </head>
 <body>
     <div class="thanks-box">
-        <h1>🎉 Thank you, ${user.firstName}!</h1>
+        <h1>🎉 Thank you,${user.lastName}!</h1>
         <p>We appreciate your time for completing this survey. Here’s the information you provided:</p>
         <hr>
 
@@ -38,10 +38,9 @@
         <hr>
         <p class="final">We’ll keep in touch soon!</p>
 
-		<div style="margin-top: 20px;">
-    		<a href="survey?action=join" class="return-btn">Return</a>
-		</div>
-
+        <div style="margin-top: 20px;">
+            <a href="survey?action=join" class="return-btn">Return</a>
+        </div>
     </div>
 </body>
 </html>
