@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="thanks-box">
-        <h1>🎉 Thank you,${user.lastName}!</h1>
+        <h1>🎉 Thank you,${user.firstName}!</h1>
         <p>We appreciate your time for completing this survey. Here’s the information you provided:</p>
         <hr>
 
